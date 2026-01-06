@@ -1,0 +1,25 @@
+.product-row {
+  border: 1px solid #668fd5;
+  padding: 12px 16px;
+  margin-bottom: 12px;
+  border-radius: 6px;
+  border-color: 2px solid black;
+  cursor: pointer;
+  background: #ffffff;
+  transition: background 200ms ease;
+}
+.product-row:hover { 
+  background: #f8f9fb; 
+}
+
+.row-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.row-bottom {
+  font-size: 12px;
+  color: #6b7280;
+  margin-top: 4px;
+}
